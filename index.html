@@ -7,10 +7,9 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%2314532d'/%3E%3C/svg%3E">
 
   <style>
-    /* estilos generales */
     body {
       margin: 0;
-      background-color: #b2d6a7; /* verde claro inspirado en la bandera */
+      background-color: #b2d6a7; 
       color: #2f2f2f;
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.5;
@@ -22,7 +21,6 @@
       padding: 30px;
     }
 
-    /* títulos */
     h1,
     h2 {
       color: #14532d;
@@ -59,7 +57,6 @@
       cursor: pointer;
     }
 
-    /* menú para celular */
     @media (max-width: 700px) {
       .contenedor {
         padding: 20px 15px;
@@ -318,14 +315,10 @@
       </section>
     </main>
 
-    <footer>
-      <p>Trabajo práctico sobre Burundi.</p>
-      <p>Página hecha como práctica de HTML, CSS y JavaScript básico.</p>
-    </footer>
+    
   </div>
 
   <script>
-    // menú para celular
     var botonMenu = document.getElementById("botonMenu");
     var menu = document.getElementById("menu");
 
@@ -341,7 +334,6 @@
       }
     });
 
-    // cierra el menú al elegir una sección
     var enlacesMenu = menu.querySelectorAll("a");
 
     for (var i = 0; i < enlacesMenu.length; i++) {
